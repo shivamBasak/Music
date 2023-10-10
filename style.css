@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #dba0a0;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+main {
+    position: relative;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main article {
+    width: calc(100% / 3 - 5px);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    background: #7fbbd9;
+}
+
+main article img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+main article p,
+main article h4,
+main article audio {
+    padding: 0 5px;
+}
+
+main article audio {
+    width: 100%;
+}
+h1{
+color: chocolate;
+text-size-adjust: 300px;
+}
+p{
+color: aliceblue;
+}
+.main{
+    background-color:rgb(10, 7, 6) ;
+}
