@@ -16,7 +16,7 @@ const updateTerm = () => {
                 // console.log(data.results);
                 const artists = data.results;
                 return artists.map(result => {
-                    // Now create Html Element 
+                    
 
                     const article = document.createElement('article'),
                         artists = document.createElement('p'),
@@ -25,7 +25,7 @@ const updateTerm = () => {
                         audio = document.createElement('audio'),
                         audioSource = document.createElement('source')
 
-                    // Now put content 
+                     
 
                     artists.innerHTML = result.artistName;
                     song.innerHTML = result.trackName;
